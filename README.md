@@ -18,14 +18,16 @@ ou en ligne de commandes via les commandes suivantes (ArchLinux par exemple):
 
 * Choisissez le numéro du paquet et commencez l'installation
 
-### Installion de dotnet
+### Installation de dotnet
 
 * Lancez la commande ``yaourt -S dotnet``
 * Choisissez ces paquets : 
   * ``dotnet-host``
   * ``dotnet-runtime-2.0``
   * ``dotnet-sdk-2.0``
-  
+
+#### Note
+**Installez si nécessaite ``mono``**
   
 ### Plugins nécessaires
 * [C# (by Omnisharp)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
