@@ -1,0 +1,10 @@
+/home/abdessalam/Bureau/dotnetc/bin/Debug/netcoreapp2.0/dotnetc.deps.json
+/home/abdessalam/Bureau/dotnetc/bin/Debug/netcoreapp2.0/dotnetc.runtimeconfig.json
+/home/abdessalam/Bureau/dotnetc/bin/Debug/netcoreapp2.0/dotnetc.runtimeconfig.dev.json
+/home/abdessalam/Bureau/dotnetc/bin/Debug/netcoreapp2.0/dotnetc.dll
+/home/abdessalam/Bureau/dotnetc/bin/Debug/netcoreapp2.0/dotnetc.pdb
+/home/abdessalam/Bureau/dotnetc/obj/Debug/netcoreapp2.0/dotnetc.csproj.CoreCompileInputs.cache
+/home/abdessalam/Bureau/dotnetc/obj/Debug/netcoreapp2.0/dotnetc.AssemblyInfoInputs.cache
+/home/abdessalam/Bureau/dotnetc/obj/Debug/netcoreapp2.0/dotnetc.AssemblyInfo.cs
+/home/abdessalam/Bureau/dotnetc/obj/Debug/netcoreapp2.0/dotnetc.dll
+/home/abdessalam/Bureau/dotnetc/obj/Debug/netcoreapp2.0/dotnetc.pdb
