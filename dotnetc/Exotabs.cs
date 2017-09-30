@@ -1,6 +1,7 @@
 using System;
 
 // directive
+using System.Collections;
 using System.Collections.Generic;
 namespace dotnetc {
 
@@ -57,6 +58,33 @@ namespace dotnetc {
             }
 
         }
-    }
+        //List 
+        public void CreateList () {
+            Random rand = new Random ();
+            var values = new List<int> ();
+            for (int i = 0; i < 100; i++) {
+                values.Add (rand.Next ());
+            }
+            values.Sort ();
+            foreach (var item in values) {
+                Console.WriteLine (item);
+            }
+        }
 
+        // Créer une hashtable
+        public void CreateHash () {
+            Hashtable hash = new Hashtable ();
+            hash.Add ("Paris", 120000);
+            hash.Add ("Montpellier", 110000);
+            hash.Add ("Bordeaux", 1000);
+            hash.Add ("Nantes", 100);
+            hash.Add ("NulPart", 163000);
+            foreach (DictionaryEntry key in hash) {
+                if ((int) key.Value > 10000) {
+                    Console.WriteLine (key.Key + " " + key.Value);
+                }
+            }
+        }
+
+    }
 }
