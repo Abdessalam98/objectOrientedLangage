@@ -24,9 +24,9 @@ namespace dotnetc {
             }
         }
         public void StringToDate () {
-            string stringto = "06/12/1998";
-            DateTime DateFromString = DateTime.ParseExact(stringto, "dd/MM/yyyy", null);
-            Console.WriteLine (DateFromString);
+            string stringto = "12/06/1998";
+            DateTime DateFromString = Convert.ToDateTime(stringto);
+            Console.WriteLine (DateFromString.Date);
         }
 
     }
