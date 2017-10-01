@@ -1,7 +1,9 @@
 using System;
 
 // directive
+//Directive for Collections "Hashtable"
 using System.Collections;
+//Directive for collections "List"
 using System.Collections.Generic;
 namespace dotnetc {
 
@@ -86,5 +88,19 @@ namespace dotnetc {
             }
         }
 
+        //  Créer une variable de type string de 5 lettres aléatoires
+        // Utilisation de chars[] et convert to string
+        public void CreateStringF (int nbL) {
+            Random rnd = new Random ();
+            string alpha = "abcdefghijklmnopqrstuvwxyz";
+            char[] myWord = new char[nbL];
+            for (int i = 0; i < nbL; i++) {
+                myWord[i] = alpha[rnd.Next (alpha.Length)];
+            }
+            string word = new string(myWord);
+            Console.WriteLine (word);
+        }
+
     }
+
 }
