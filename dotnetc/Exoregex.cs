@@ -33,6 +33,14 @@ namespace dotnetc {
             } else
                 Console.WriteLine ("Invalide. Réessayez");
         }
+        // Test email version simple 
+        public void CheckEmail(string email) {
+            Regex tEmail = new Regex(@"([\w\-.]+@[\w\-.]+)");
+            if (tEmail.Match(email).Success) {
+                Console.WriteLine ("Email valide");
+            } else
+                Console.WriteLine ("Invalide. Réessayez");
+        }
 
     }
 }
