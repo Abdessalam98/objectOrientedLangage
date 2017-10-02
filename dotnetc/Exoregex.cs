@@ -16,6 +16,23 @@ namespace dotnetc {
                 Console.WriteLine ("False");
 
         }
+        // Tester si une chaine contient des espaces si oui la renvoyer sans
+        public void StringEsc (string str) {
+            Regex test1 = new Regex (@"[^\S$]");
+            if (test1.Match (str).Success) {
+                string nwStr = test1.Replace (str, "");
+                Console.WriteLine (nwStr);
+            } else
+                Console.WriteLine ("False");
+        }
+        // Tester si un numéro de téléphone est au format français
+        public void CheckNbFr (string telephone) {
+            Regex tel = new Regex (@"(\+33|0033)[1-9][0-9]{8}");
+            if (tel.Match(telephone).Success) {
+                Console.WriteLine ("Numéro valide");
+            } else
+                Console.WriteLine ("Invalide. Réessayez");
+        }
 
     }
 }
